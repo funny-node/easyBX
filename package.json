@@ -1,0 +1,19 @@
+{
+  "name": "easybx",
+  "version": "1.0.0",
+  "description": "让报销变的轻松一点",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "baoxiao"
+  ],
+  "author": "fish",
+  "license": "MIT",
+  "dependencies": {
+    "ddkq": "^1.0.0",
+    "ejs": "^2.6.1",
+    "zfbzd": "^1.1.0"
+  }
+}
