@@ -1,6 +1,6 @@
 {
   "name": "easybx",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "让报销变的轻松一点",
   "main": "index.js",
   "scripts": {
@@ -12,8 +12,8 @@
   "author": "fish",
   "license": "MIT",
   "dependencies": {
-    "ddkq": "^1.0.0",
+    "ddkq": "^3.0.0",
     "ejs": "^2.6.1",
-    "zfbzd": "^1.1.0"
+    "zfbzd": "^2.0.0"
   }
 }

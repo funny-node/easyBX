@@ -57,21 +57,13 @@ function compare(overtime_data, cost_data) {
  */
 function reorder(ret, sorting) {
   if (sorting === 'asc') { // 升序
-    ret.sort((a, b) => {
-      if (a.year !== b.year) return a.year - b.year 
-      else if (a.month !== b.month) return a.month - b.month 
-      else return a.day - b.day
-    })
+    ret.sort((a, b) => a.timestamp - b.timestamp)
   } else if (sorting === 'desc') { // 降序
-    ret.sort((a, b) => {
-      if (a.year !== b.year) return b.year - a.year 
-      else if (a.month !== b.month) return b.month - a.month 
-      else return b.day - a.day
-    })
+    ret.sort((a, b) => b.timestamp - a.timestamp)
   } else {
     throw new Error('参数错误')
   }
-
+  
   return ret
 }
 
